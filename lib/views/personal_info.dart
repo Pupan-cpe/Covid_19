@@ -19,13 +19,13 @@ class PersonalInfoScreen extends StatelessWidget {
                       child: CircleAvatar(
                         radius: 90.0,
                         backgroundImage: NetworkImage(
-                            'https://media-exp1.licdn.com/dms/image/C4D03AQEF0bDkllWyAQ/profile-displayphoto-shrink_400_400/0?e=1602115200&v=beta&t=FvkFAnHPiE2ipkx2Qw9OE-lo8PpW7K2Y-T4xenUN5sw'),
+                            'https://www.img.in.th/images/e57d2cd4ddd517b69de2e846704d130e.png'),
                       ),
                     ),
                     Padding(
                       padding: const EdgeInsets.only(top: 8.0),
                       child: Text(
-                        'Waleed Arshad',
+                        'Pupan Poulkaew',
                         style: Theme.of(context)
                             .textTheme
                             .headline
@@ -33,7 +33,7 @@ class PersonalInfoScreen extends StatelessWidget {
                         textAlign: TextAlign.center,
                       ),
                     ),
-                    Text('waleed_arshad006@hotmail.com',
+                    Text('pupan.phonkaew@gmail.com',
                         style: TextStyle(color: Colors.grey),
                         textAlign: TextAlign.center),
                   ],
